@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Heart
+  - Shield
+  - Coin
+  - Mouse
+  - Dialog
+  - Level
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Enemy
+  - Water
+  - UI
+  - Ground
+  - Player
+  - IgnorePlayer
+  - Bonus
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3562879159
+    locked: 0
+  - name: FirstPlaneObj
+    uniqueID: 2300144287
+    locked: 0
+  - name: Boss
+    uniqueID: 4026528493
+    locked: 0
+  - name: Corovan
+    uniqueID: 3970249187
+    locked: 0
+  - name: Enemy
+    uniqueID: 3129501403
+    locked: 0
+  - name: Player
+    uniqueID: 3292479089
+    locked: 0
+  - name: UI
+    uniqueID: 1359474265
+    locked: 0

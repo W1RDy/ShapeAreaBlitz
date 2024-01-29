@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Level1
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: fae5344db4a464544807183b3169867d, type: 3}
+    - {fileID: 2800000, guid: f17f4b4accf940a4e8053f56dbae6108, type: 3}
+    - {fileID: 2800000, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -7386977869041341191, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: -2231834658834728102, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: -379413496431529324, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: 8436455025868625295, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: 2910171259692503658, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: 168017961638387297, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: -4758562240772289727, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: -911573627083161588, guid: 919821d494c7006478e75e80ecbcee90, type: 3}
+  - {fileID: 21300000, guid: f17f4b4accf940a4e8053f56dbae6108, type: 3}
+  - {fileID: 8399850596505791986, guid: fae5344db4a464544807183b3169867d, type: 3}
+  - {fileID: -2735879413682148437, guid: fae5344db4a464544807183b3169867d, type: 3}
+  - {fileID: -1656166294940094332, guid: fae5344db4a464544807183b3169867d, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - graffity_8
+  - graffity_9
+  - graffity_2
+  - graffity_0
+  - graffity_1
+  - graffity_6
+  - graffity_7
+  - graffity_10
+  - sun
+  - city_2
+  - city_1
+  - city_0
+  m_RenderDataMap: {}
+  m_Tag: Level1
+  m_IsVariant: 0

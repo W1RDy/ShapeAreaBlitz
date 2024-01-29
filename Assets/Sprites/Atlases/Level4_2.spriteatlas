@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Level4_2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 68020db9ee80eea4ba85a2c07e32e65b, type: 3}
+    - {fileID: 2800000, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 8181516280913385398, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: -1928048437998196419, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: -5344490080608993641, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: -5877020115808830907, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: -5357351848434823851, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: 7865459609775296889, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: 6900911356216646216, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: -5320590813576762549, guid: ee848e82988620241bb5d77521fd4062, type: 3}
+  - {fileID: 21300000, guid: 68020db9ee80eea4ba85a2c07e32e65b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Boss4_2_6
+  - Boss4_2_7
+  - Boss4_2_4
+  - Boss4_2_5
+  - Boss4_2_2
+  - Boss4_2_3
+  - Boss4_2_0
+  - Boss4_2_1
+  - ComputerCode
+  m_RenderDataMap: {}
+  m_Tag: Level4_2
+  m_IsVariant: 0

@@ -1,0 +1,368 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1308961890278160493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308961890278160482}
+  - component: {fileID: 1308961890278160483}
+  - component: {fileID: 1308961890278160492}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308961890278160482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308961890278160493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.12876499, y: 3.341106, z: -18.131578}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1308961890278160483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308961890278160493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd70efd72ce07234288bf9a4e0bc9b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - index: Menu
+    audioClip: {fileID: 8300000, guid: ba6693adee7708d4ca0160584e822885, type: 3}
+    volume: 0.15
+  - index: Level1
+    audioClip: {fileID: 8300000, guid: c1da0b4536586f0488ab4598fb678751, type: 3}
+    volume: 0.1
+  - index: Level2
+    audioClip: {fileID: 8300000, guid: 3b4afc3c487527547adf3a0e3fa6b411, type: 3}
+    volume: 0.2
+  - index: Level3
+    audioClip: {fileID: 8300000, guid: db92a23949a9cec44a7ece8f908d6f2d, type: 3}
+    volume: 0.2
+  - index: Level4_1
+    audioClip: {fileID: 8300000, guid: b406eafb72f4333468e1b48e3da0e11d, type: 3}
+    volume: 0.15
+  - index: Level5
+    audioClip: {fileID: 8300000, guid: 5b375481234ddbc4897a55e6079c3164, type: 3}
+    volume: 0.2
+  - index: Level6
+    audioClip: {fileID: 8300000, guid: 05c4955a1f793ef4e8e41e8467bcb010, type: 3}
+    volume: 0.4
+  - index: Level7_1
+    audioClip: {fileID: 8300000, guid: d1f70690d35cd60478b75bff068a0e43, type: 3}
+    volume: 0.2
+  - index: Click
+    audioClip: {fileID: 8300000, guid: 5aa1f6a7ba6294d4cb8338c1887b48f0, type: 3}
+    volume: 1.3
+  - index: Lose
+    audioClip: {fileID: 8300000, guid: c683c83f819955545bd0c39314f9dd0d, type: 3}
+    volume: 0.8
+  - index: Win
+    audioClip: {fileID: 8300000, guid: 246848f9c374fa747b63b18d55cddb59, type: 3}
+    volume: 0.8
+  - index: Move
+    audioClip: {fileID: 8300000, guid: 12583ffb06f732746a04831b21688730, type: 3}
+    volume: 3
+  - index: Heal
+    audioClip: {fileID: 8300000, guid: 1d9eb2fa3761dd648879b1efa830500a, type: 3}
+    volume: 0.8
+  - index: Shield
+    audioClip: {fileID: 8300000, guid: 3e65ba9c46bac0146b7fccb45499877a, type: 3}
+    volume: 0.25
+  - index: TakeHit
+    audioClip: {fileID: 8300000, guid: 90faedd319874e849847f0dcb114e33e, type: 3}
+    volume: 1
+  - index: KillEnemy
+    audioClip: {fileID: 8300000, guid: ced34a35fff432b4e93fa4999575ec91, type: 3}
+    volume: 0.4
+  - index: Freeze
+    audioClip: {fileID: 8300000, guid: 9399189fd441e5441b721c658f4dee4a, type: 3}
+    volume: 0.8
+  - index: Warning
+    audioClip: {fileID: 8300000, guid: b931f87ca28b326438e237d986e30699, type: 3}
+    volume: 0.35
+  - index: HitGround
+    audioClip: {fileID: 8300000, guid: 67a2533579dfb9a4bb52995dedad46d9, type: 3}
+    volume: 0.6
+  - index: Bark
+    audioClip: {fileID: 8300000, guid: c289560581fabfe4f985219d2b9ead8c, type: 3}
+    volume: 0.2
+  - index: FireLaser
+    audioClip: {fileID: 8300000, guid: 0a545efbaca736244a75360f212e6e0a, type: 3}
+    volume: 0.07
+  - index: Fire
+    audioClip: {fileID: 8300000, guid: fce1d3ead7cad744083285df4509d566, type: 3}
+    volume: 0.7
+  - index: Whistle
+    audioClip: {fileID: 8300000, guid: cd5780cc1256fef42ab296e61f0c6d88, type: 3}
+    volume: 0.5
+  - index: RaceCars
+    audioClip: {fileID: 8300000, guid: 2da839793ae2db245934d6ea09a4b4ea, type: 3}
+    volume: 0.3
+  - index: TireHit
+    audioClip: {fileID: 8300000, guid: 1c6f6ec06f3642e4dae6209fad045634, type: 3}
+    volume: 0.6
+  - index: Sweep
+    audioClip: {fileID: 8300000, guid: b0bce668b854e4e418bba88319c597de, type: 3}
+    volume: 0.8
+  - index: Wheel
+    audioClip: {fileID: 8300000, guid: e60d6228316d45c4b94cdd7d9908c0ac, type: 3}
+    volume: 0.4
+  - index: Crash
+    audioClip: {fileID: 8300000, guid: 3eaa572851b24e74993acaefc268ed7e, type: 3}
+    volume: 0.8
+  - index: MouseClick
+    audioClip: {fileID: 8300000, guid: fd2751aa99a972841b6b91c5f426d897, type: 3}
+    volume: 1
+  - index: MouseDoubleClick
+    audioClip: {fileID: 8300000, guid: 72862cc0739aebe49b0bf2ed1d6408e5, type: 3}
+    volume: 1
+  - index: MouseHold
+    audioClip: {fileID: 8300000, guid: 4526b60f4e6ddc541adfe3ea6dd3664a, type: 3}
+    volume: 1
+  - index: MouseLet
+    audioClip: {fileID: 8300000, guid: 2bd1be08f3f201e49aed9f742e25862f, type: 3}
+    volume: 1
+  - index: TurnOff
+    audioClip: {fileID: 8300000, guid: cae4db8152e32d64bbf0b634d835e7da, type: 3}
+    volume: 1.5
+  - index: TurnOn
+    audioClip: {fileID: 8300000, guid: ddf7672e13df49b4eb8c62b925f26375, type: 3}
+    volume: 1.5
+  - index: Digit
+    audioClip: {fileID: 8300000, guid: 8594d61e912d2594ca315f42f02012f5, type: 3}
+    volume: 0.5
+  - index: Bug
+    audioClip: {fileID: 8300000, guid: 934b15cedf02e1a42af8a36f0bd5ea7a, type: 3}
+    volume: 1
+  - index: Laser
+    audioClip: {fileID: 8300000, guid: 72e9a745c4e09a44ca4111ad701a198e, type: 3}
+    volume: 0.15
+  - index: Spikes
+    audioClip: {fileID: 8300000, guid: 2ce3a35f4d5a45e429337879213fc5df, type: 3}
+    volume: 0.7
+  - index: Jackhammer
+    audioClip: {fileID: 8300000, guid: a3058bb4e9715394183dd7ef2a9a505e, type: 3}
+    volume: 0.3
+  - index: MetalHit
+    audioClip: {fileID: 8300000, guid: 4fae1b63c886bc041b8ede2ecc1cd96b, type: 3}
+    volume: 1.2
+  - index: Blizzard
+    audioClip: {fileID: 8300000, guid: 84843de9a242fdb41a72afabaa60462b, type: 3}
+    volume: 0.1
+  - index: Slide
+    audioClip: {fileID: 8300000, guid: cc47787b2cd98fa4388f8e747ed18959, type: 3}
+    volume: 0.7
+  - index: SnowSpikes
+    audioClip: {fileID: 8300000, guid: e2c66c244a5062c47bf91d41476591a2, type: 3}
+    volume: 1
+  - index: Melt
+    audioClip: {fileID: 8300000, guid: c61f68da322c78943896a1c7f2f5d04a, type: 3}
+    volume: 1
+  - index: VirusRun
+    audioClip: {fileID: 8300000, guid: 7b92182d2b0d39a42bf1e60a6eeb5be6, type: 3}
+    volume: 0.1
+  - index: VirusRun
+    audioClip: {fileID: 8300000, guid: 7b92182d2b0d39a42bf1e60a6eeb5be6, type: 3}
+    volume: 0.1
+  - index: VirusLeg
+    audioClip: {fileID: 8300000, guid: 783cd876b7a16d54ab9c908a97b494e2, type: 3}
+    volume: 0.7
+  - index: ThrowSpike
+    audioClip: {fileID: 8300000, guid: 73cc96af701c4ba4ea94d1ccdb7e51bc, type: 3}
+    volume: 0.5
+  - index: Glitch
+    audioClip: {fileID: 8300000, guid: 772f513a8acf0cb43a64d595afabab2b, type: 3}
+    volume: 0.8
+  - index: Reload
+    audioClip: {fileID: 8300000, guid: 8ffe2a801f633f5458e674971c8747a2, type: 3}
+    volume: 1
+  - index: Magic
+    audioClip: {fileID: 8300000, guid: 3c80f4aeda8c3004488318568ffdb6c3, type: 3}
+    volume: 0.5
+  - index: Inhale
+    audioClip: {fileID: 8300000, guid: 458ca89f97c24304f8561c805326796f, type: 3}
+    volume: 0.25
+  - index: Exhale
+    audioClip: {fileID: 8300000, guid: 3e450369feb11204880b638ebe44c530, type: 3}
+    volume: 0.25
+  - index: Snow
+    audioClip: {fileID: 8300000, guid: a270559bdbd6e2b42ae1b6772a95b384, type: 3}
+    volume: 2
+  - index: Shot
+    audioClip: {fileID: 8300000, guid: c710bfbd2fda78647a1e0a166517a200, type: 3}
+    volume: 0.3
+  - index: BossIceSpikes
+    audioClip: {fileID: 8300000, guid: a98da32aa70b563409c0d0d1a03afb83, type: 3}
+    volume: 0.2
+  - index: BossDemon
+    audioClip: {fileID: 8300000, guid: c7d661a4efef662448909743ce589282, type: 3}
+    volume: 0.3
+  - index: BossHellLord
+    audioClip: {fileID: 8300000, guid: a260b592b05fea14c981d860f2d96402, type: 3}
+    volume: 0.5
+  - index: BossOS
+    audioClip: {fileID: 8300000, guid: da196fdc74952d849872a02a6a291add, type: 3}
+    volume: 0.5
+  - index: BossBrigadier
+    audioClip: {fileID: 8300000, guid: 096bf980929668a4283b8008c1e8b268, type: 3}
+    volume: 1
+  - index: BossVirus
+    audioClip: {fileID: 8300000, guid: 9e2c134b1a9198c489a0c300331040a5, type: 3}
+    volume: 0.7
+  - index: HitProcessor
+    audioClip: {fileID: 8300000, guid: 49f03ae58bb97954481ab04a6158c31c, type: 3}
+    volume: 1
+  - index: HitVirus
+    audioClip: {fileID: 8300000, guid: f47f728ee05c4b04b87fe05b50e16dcf, type: 3}
+    volume: 0.3
+  - index: HitDemon
+    audioClip: {fileID: 8300000, guid: f4dc82f504351f84a951603888f44d6f, type: 3}
+    volume: 0.5
+  - index: HitSnowWizard
+    audioClip: {fileID: 8300000, guid: 7247714920d13ec4f876380b6820475a, type: 3}
+    volume: 0.7
+  - index: HitBrigadier
+    audioClip: {fileID: 8300000, guid: d1f2cb123dbdc2840b7c73ed22f6784c, type: 3}
+    volume: 1.8
+  - index: HitHellLord
+    audioClip: {fileID: 8300000, guid: 862aaf8d13918164594e6e2247224168, type: 3}
+    volume: 0.3
+  - index: HitRacer
+    audioClip: {fileID: 8300000, guid: b15055096d0c30541bb3dfceab52f055, type: 3}
+    volume: 0.5
+  - index: Level4_2
+    audioClip: {fileID: 8300000, guid: d975393999cd3c245aa7e782f88bc063, type: 3}
+    volume: 0.3
+  - index: Level7_2
+    audioClip: {fileID: 8300000, guid: e6674717c08434547820a69e1c0d66f2, type: 3}
+    volume: 0.7
+  - index: Tutorial
+    audioClip: {fileID: 8300000, guid: 860eb141776485b49987538060e4f17d, type: 3}
+    volume: 0.5
+  - index: TutorialLaser
+    audioClip: {fileID: 8300000, guid: ea014479a92089443bfa8a9842160a36, type: 3}
+    volume: 0.4
+  - index: Doubler
+    audioClip: {fileID: 8300000, guid: 81e3981ced728de4fa0b91828eadec76, type: 3}
+    volume: 0.6
+  - index: Bonus
+    audioClip: {fileID: 8300000, guid: 5b533e66fdb568e41bdb13eb98d921f4, type: 3}
+    volume: 1
+  - index: ScreenHit
+    audioClip: {fileID: 8300000, guid: 4b12f63f7e8ac284383d1739e070f31d, type: 3}
+    volume: 0.5
+--- !u!82 &1308961890278160492
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308961890278160493}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

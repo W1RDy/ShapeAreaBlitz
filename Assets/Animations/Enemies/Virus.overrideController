@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Virus
+  m_Controller: {fileID: 9100000, guid: 8d0af1e6f6419544f8bd134c819841f9, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 391083c5dc6d40043a632427b8539711, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 7e53d5b2382f24e49a7c578c424c8938, type: 2}
