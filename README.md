@@ -1,2 +1,2 @@
 My first game for the Yandex Games platform. 
-https://games.yandex.ru/console/application/272856#application-info-draft
+https://youtu.be/p7yZnSMwJt0?si=Yj0X1QvwbziGuSC8
